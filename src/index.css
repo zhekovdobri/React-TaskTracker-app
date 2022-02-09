@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #e4e4e4;
+}
+
+.container {
+  max-width: 380px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 1px solid rgb(204, 202, 202);
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #f3f6ff;
+  border-radius: 25px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background: #3b378e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+  justify-content: center;
+  
+
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+.btn:hover {
+  background-color: blue;
+  color: white;
+}
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.task {
+  background: #f4f4f4;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 20px;
+  color: black;
+  font-size: 13px;
+  display: flex;
+
+  box-shadow: 2px 5px 5px #b7b0b0;
+  margin-bottom: 20px;
+  border: 1px solid rgb(233, 231, 231);
+}
+
+.task.reminder {
+  border-left: 10px solid green;
+  border-radius: 20px;
+  box-shadow: 2px 5px 5px #b7b0b0;
+  margin-bottom: 20px;
+  border: 1px solid rgb(233, 231, 231);
+}
+
+.task h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-form {
+  margin-bottom: 40px;
+  padding-right: 10px;
+}
+
+.form-control {
+  margin: 20px 0;
+}
+
+.form-control label {
+  display: block;
+}
+
+.form-control input {
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+  border-radius: 50px;
+  border: 1px solid rgb(195, 192, 192)
+}
+
+.form-control-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-control-check label {
+  flex: 1;
+}
+
+.form-control-check input {
+  flex: 2;
+  height: 20px;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
+.icon {
+  background-repeat: no-repeat;
+  background-color: #3b378e;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 55px;
+  height: 68px;
+  padding: 0px 15px;
+}
+p {
+  padding: 5px;
+}
+
