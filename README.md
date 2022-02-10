@@ -24,7 +24,7 @@
 <br />
 
 ## Description
-The React-TaskTracker-app was created with React and VSC. The project has modern design style. It contains the main app functionality. The languages used for this project are JavaScript 72.4%, CSS 21.5% HTML 6.1%. The user can add a new task and time to the list of tasks. He can delete them and add them again.
+The React-TaskTracker-app was created with React and VSC. The project has modern design style. It contains the main app functionality. The languages used for this project are JavaScript 72.4%, CSS 21.5% HTML 6.1%. The user can add a new task and time to the list of tasks. He can delete them and add them again. How it works. First you have to push the green button to unfold the form. This way you can write your task and time in to the text fields. When you finish - use the "Save Task" button to save your data. You can delete your task with the close "x" button or pushing the blue notes button on the left side of the task. There are three tasks by default. I added clock and calendar as a components to make the app more precise and accurate. Later on I decided to use only the clock.
 
 </div>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
