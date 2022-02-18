@@ -16,6 +16,16 @@ const AddTask = ({ onAdd }) => {
 
     const onSubmit = (e) => {
         e.preventDefault()
+        
+        const blog = { text, day, reminder }
+
+        fetch('https://react-task-tracker-bf80a-default-rtdb.firebaseio.com/tasks.json',
+   
+        {
+            method: 'POST',
+            body: JSON.stringify(blog),
+            headers: {'Content-Type': 'application/json'}
+        });
 
         if(!text) {
             alert('Please add a task')
